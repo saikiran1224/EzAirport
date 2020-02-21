@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Baggage_Tracker"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="20dp"
+        android:text="Baggage Tracker"
+        android:textSize="30dp"
+        android:textColor="#03A9F4"
+        app:fontFamily="@font/open_sans"></TextView>
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Source"
+        android:layout_marginLeft="30dp"
+        android:textColor="#039BE5"></TextView>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/source"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"></Spinner>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Destination"
+        android:layout_marginLeft="30dp"
+        android:textColor="#039BE5"></TextView>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/destination"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"></Spinner>
+    <EditText
+        android:id="@+id/count"
+        android:layout_width="match_parent"
+        android:layout_margin="30dp"
+        android:hint="Enter Count of Bags"
+        android:layout_height="wrap_content"></EditText>
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="208dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:inputType="number"
+        android:background="@drawable/button_border_solid"
+        android:textColor="#fff"></Button>
+
+</LinearLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration_Activity"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundcolor">
+   <androidx.cardview.widget.CardView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="30dp"
+       android:layout_marginLeft="25dp"
+       android:layout_marginRight="25dp"
+       app:cardElevation="@dimen/cardview_default_elevation"
+       app:cardCornerRadius="10dp">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTRATION PAGE"
+        android:textColor="#039BE5"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"></TextView>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:textColor="#039BE5"
+        android:hint="Name"></EditText>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="#039BE5"
+        android:layout_marginRight="25dp"
+        android:hint="Email ID"></EditText>
+
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="#039BE5"
+        android:inputType="textPassword"
+        android:layout_marginRight="25dp"
+        android:hint="Password"></EditText>
+    <EditText
+        android:id="@+id/cpwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="#039BE5"
+        android:inputType="textPassword"
+        android:layout_marginRight="25dp"
+        android:hint="Confirm Password"></EditText>
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textColor="#039BE5"
+        android:hint="Phone Number"></EditText>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="#fff"
+        android:background="@drawable/button_border_solid"
+        android:layout_marginRight="25dp"
+        android:text="Register"
+        android:layout_gravity="center_horizontal"></Button>
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Already a User? Click Here to Login"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="25dp"
+        android:textSize="15dp"></TextView>
+</LinearLayout>
+   </androidx.cardview.widget.CardView>
+
+</LinearLayout>

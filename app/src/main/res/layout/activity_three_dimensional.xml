@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThreeDimensional"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:text="3D Visualisation"
+        android:textSize="30dp"
+        android:textColor="#03A9F4"
+        app:fontFamily="@font/open_sans"></TextView>
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Airport"
+        android:layout_marginLeft="30dp"
+        android:textColor="#039BE5"></TextView>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/student"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"></Spinner>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:id="@+id/scrollayout"
+            android:visibility="gone"
+            android:layout_height="match_parent">
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/dview"></ImageView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="235dp"
+                android:layout_marginTop="-10dp"
+                android:src="@drawable/airr"></ImageView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="235dp"
+                android:layout_marginTop="-10dp"
+                android:src="@drawable/air2"></ImageView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="235dp"
+                android:layout_marginTop="-10dp"
+                android:src="@drawable/air4"></ImageView>
+            </LinearLayout>
+        </ScrollView>
+
+</LinearLayout>

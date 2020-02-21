@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "939821309922",
+    "firebase_url": "https://ezairport-3f38f.firebaseio.com",
+    "project_id": "ezairport-3f38f",
+    "storage_bucket": "ezairport-3f38f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939821309922:android:47c7c86d3e883dcd7823bb",
+        "android_client_info": {
+          "package_name": "com.example.ezairport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "939821309922-eneinrtvc4m2hckn32abcffgh2qlmdg7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ezairport",
+            "certificate_hash": "100e32874e02f1f5adf85cea84f6b73410abdaf5"
+          }
+        },
+        {
+          "client_id": "939821309922-cr3f26dgk6f2mo6qo5r5djks3d9s0eq5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOkPbXf8eVade2VS61uVIj71-R7fUbLQw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "939821309922-cr3f26dgk6f2mo6qo5r5djks3d9s0eq5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

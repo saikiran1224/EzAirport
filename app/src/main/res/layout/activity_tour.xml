@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    tools:context=".TourActivity"
+    android:background="#fff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 1: How is your Day ?"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="25dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"></TextView>
+
+    <ImageView
+        android:id="@+id/happy"
+        android:layout_width="138dp"
+        android:layout_height="156dp"
+        android:src="@drawable/smile"
+        android:layout_marginLeft="35dp"></ImageView>
+
+    <ImageView
+        android:id="@+id/sleep"
+        android:layout_width="138dp"
+        android:layout_height="156dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="-158dp"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/sleep"
+        android:layout_marginRight="35dp"></ImageView>
+
+
+    <ImageView
+        android:id="@+id/angry"
+        android:layout_width="138dp"
+        android:layout_height="156dp"
+        android:src="@drawable/angry"
+        android:layout_marginLeft="35dp"></ImageView>
+
+    <ImageView
+        android:id="@+id/sad"
+        android:layout_width="138dp"
+        android:layout_height="156dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="-158dp"
+        android:src="@drawable/sad"
+        android:layout_marginRight="35dp"></ImageView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 2: Do you feel Hungry ?"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"></TextView>
+
+
+        <ImageView
+            android:id="@+id/right"
+            android:layout_width="92dp"
+            android:layout_height="92dp"
+            android:layout_marginLeft="55dp"
+            android:src="@drawable/right"></ImageView>
+
+        <ImageView
+            android:id="@+id/wrong"
+            android:layout_width="92dp"
+            android:layout_height="92dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="-92dp"
+            android:layout_marginBottom="25dp"
+            android:src="@drawable/wrong"
+            android:layout_marginRight="55dp"></ImageView>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="                 Question 3:\nAre you interested in Shopping ?"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:lineHeight="30dp"
+            android:layout_marginBottom="25dp"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"></TextView>
+
+
+        <ImageView
+            android:id="@+id/right1"
+            android:layout_width="92dp"
+            android:layout_height="92dp"
+            android:layout_marginLeft="55dp"
+            android:src="@drawable/right"></ImageView>
+
+        <ImageView
+            android:id="@+id/wrong1"
+            android:layout_width="92dp"
+            android:layout_height="92dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="-92dp"
+            android:layout_marginBottom="25dp"
+            android:src="@drawable/wrong"
+            android:layout_marginRight="55dp"></ImageView>
+
+        <Button
+            android:id="@+id/button"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:layout_width="208dp"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_border_solid"
+            android:text="click here"></Button>
+
+    </LinearLayout>
+
+
+</ScrollView>
